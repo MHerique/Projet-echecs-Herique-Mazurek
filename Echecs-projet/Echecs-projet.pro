@@ -20,13 +20,17 @@ SOURCES += \
     entite.cpp \
     fou.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    plateau.cpp \
+    seigneur.cpp
 
 HEADERS += \
     cavalier.h \
     entite.h \
     fou.h \
-    mainwindow.h
+    mainwindow.h \
+    plateau.h \
+    seigneur.h
 
 FORMS += \
     mainwindow.ui

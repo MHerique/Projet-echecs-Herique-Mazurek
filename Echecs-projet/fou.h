@@ -8,6 +8,7 @@
 class Fou : public Entite{
 public:
     Fou();
+    bool deplacement_possible(int x , int y);
 };
 
 #endif // FOU_H

@@ -5,7 +5,7 @@ Fou::Fou()
 
 }
 
-bool Fou::Deplacement(int x, int y){
+bool Fou::deplacement_possible(int x, int y){
 
     return false;
 }

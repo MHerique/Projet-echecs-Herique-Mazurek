@@ -9,6 +9,7 @@ public:
     Cavalier();
     bool Deplacement(int x, int y);
     int Manger(int x, int y); // à faire
+
 };
 
 #endif // CAVALIER_H
