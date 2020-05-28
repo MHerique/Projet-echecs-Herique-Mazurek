@@ -17,20 +17,30 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     cavalier.cpp \
+    chatelain.cpp \
     entite.cpp \
     fou.cpp \
     main.cpp \
     mainwindow.cpp \
+    pion.cpp \
     plateau.cpp \
-    seigneur.cpp
+    reine.cpp \
+    roi.cpp \
+    seigneur.cpp \
+    tour.cpp
 
 HEADERS += \
     cavalier.h \
+    chatelain.h \
     entite.h \
     fou.h \
     mainwindow.h \
+    pion.h \
     plateau.h \
-    seigneur.h
+    reine.h \
+    roi.h \
+    seigneur.h \
+    tour.h
 
 FORMS += \
     mainwindow.ui

@@ -1,0 +1,14 @@
+debug/cavalier.o
+debug/chatelain.o
+debug/entite.o
+debug/fou.o
+debug/main.o
+debug/mainwindow.o
+debug/pion.o
+debug/plateau.o
+debug/reine.o
+debug/roi.o
+debug/seigneur.o
+debug/tour.o
+debug/moc_entite.o
+debug/moc_mainwindow.o
