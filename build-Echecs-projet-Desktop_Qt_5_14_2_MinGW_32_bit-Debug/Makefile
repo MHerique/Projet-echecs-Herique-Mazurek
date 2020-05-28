@@ -241,6 +241,7 @@ Makefile: ../Echecs-projet/Echecs-projet.pro D:/ProgrammeFile/Qt/5.14.2/mingw73_
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/qt_config.prf \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/win32-g++/qmake.conf \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/exclusive_builds.prf \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/toolchain.prf \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/default_pre.prf \
@@ -269,7 +270,6 @@ Makefile: ../Echecs-projet/Echecs-projet.pro D:/ProgrammeFile/Qt/5.14.2/mingw73_
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/lib/Qt5Gui.prl \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/lib/Qt5Core.prl \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/lib/qtmain.prl \
-		.qmake.stash \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\Echecs-projet\Echecs-projet.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/spec_pre.prf:
@@ -443,6 +443,7 @@ D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/qt_functions.prf:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/qt_config.prf:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/win32-g++/qmake.conf:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/spec_post.prf:
+.qmake.stash:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/exclusive_builds.prf:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/toolchain.prf:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/default_pre.prf:
@@ -471,7 +472,6 @@ D:/ProgrammeFile/Qt/5.14.2/mingw73_32/lib/Qt5Widgets.prl:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/lib/Qt5Gui.prl:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/lib/Qt5Core.prl:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/lib/qtmain.prl:
-.qmake.stash:
 D:/ProgrammeFile/Qt/5.14.2/mingw73_32/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\Echecs-projet\Echecs-projet.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"

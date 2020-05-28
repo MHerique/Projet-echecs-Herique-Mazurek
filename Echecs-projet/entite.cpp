@@ -1,6 +1,6 @@
 #include "entite.h"
 
-Entite::Entite(): position_x(-1),position_y(-1),est_mange(0)
+Entite::Entite(QObject* parent) : QObject(parent)
 {
 
 }
