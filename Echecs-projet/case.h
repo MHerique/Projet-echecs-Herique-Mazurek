@@ -7,12 +7,8 @@ class Case
 private:
     T* pion;
 public:
-    Case(T* p){
-        pion=p;
-    };
-    T* getPion() const{
-        return pion;
-    };
+    Case(T* p);
+    T* getPion() const;
     //pas de setters puisque la case servira de pion sur le plateau, la case ne changera jamais de pion
 };
 

@@ -692,10 +692,10 @@ debug/main.o: ../Echecs-projet/main.cpp ../Echecs-projet/mainwindow.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtGui/qicon.h \
 		../Echecs-projet/plateau.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/QVector \
+		../Echecs-projet/case.h \
+		../Echecs-projet/cavalier.h \
 		../Echecs-projet/entite.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/QObject \
-		../Echecs-projet/cavalier.h \
-		../Echecs-projet/case.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtWidgets/QApplication \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtWidgets/qapplication.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qcoreapplication.h \
@@ -931,22 +931,7 @@ debug/plateau.o: ../Echecs-projet/plateau.cpp ../Echecs-projet/plateau.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qpair.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qcontainertools_impl.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qpoint.h \
-		../Echecs-projet/entite.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/QObject \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qobject.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qobjectdefs.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qobjectdefs_impl.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qlist.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qbytearraylist.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qstringlist.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qregexp.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qstringmatcher.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qcoreevent.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qscopedpointer.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qmetatype.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qvarlengtharray.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qcontainerfwd.h \
-		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qobject_impl.h
+		../Echecs-projet/case.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\plateau.o ..\Echecs-projet\plateau.cpp
 
 debug/reine.o: ../Echecs-projet/reine.cpp ../Echecs-projet/reine.h \
@@ -1006,7 +991,8 @@ debug/reine.o: ../Echecs-projet/reine.cpp ../Echecs-projet/reine.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qcontainerfwd.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qobject_impl.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/QVector \
-		../Echecs-projet/plateau.h
+		../Echecs-projet/plateau.h \
+		../Echecs-projet/case.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\reine.o ..\Echecs-projet\reine.cpp
 
 debug/roi.o: ../Echecs-projet/roi.cpp ../Echecs-projet/roi.h \
@@ -1066,7 +1052,8 @@ debug/roi.o: ../Echecs-projet/roi.cpp ../Echecs-projet/roi.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qcontainerfwd.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qobject_impl.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/QVector \
-		../Echecs-projet/plateau.h
+		../Echecs-projet/plateau.h \
+		../Echecs-projet/case.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\roi.o ..\Echecs-projet\roi.cpp
 
 debug/seigneur.o: ../Echecs-projet/seigneur.cpp ../Echecs-projet/seigneur.h \
@@ -1126,6 +1113,7 @@ debug/seigneur.o: ../Echecs-projet/seigneur.cpp ../Echecs-projet/seigneur.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qobject_impl.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/QVector \
 		../Echecs-projet/plateau.h \
+		../Echecs-projet/case.h \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/QtMath \
 		D:/ProgrammeFile/Qt/5.14.2/mingw73_32/include/QtCore/qmath.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\seigneur.o ..\Echecs-projet\seigneur.cpp
