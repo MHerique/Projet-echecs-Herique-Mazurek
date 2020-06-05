@@ -7,7 +7,7 @@ Seigneur::Seigneur()
 
 }
 
-bool Seigneur::deplacement_possible(int x, int y,Plateau *plateau){
+bool Seigneur::deplacement_possible(int x, int y){
     int test=0;
     Entite *position_arrive = NULL ;
     if( (position_x==x) && (position_y=y) ){ // position d'arrivé = position de départ

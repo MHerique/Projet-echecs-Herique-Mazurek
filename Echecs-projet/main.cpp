@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     std::cout << cases_plateau.at(1)->at(1)->getTest() << std::endl;*/
     int t=5;
     Case<int> test(&t);
-    std::cout << *test.getPion() << std::endl;
+    //std::cout << *test.getPion() << std::endl;
 
    /* QApplication a(argc, argv);
     MainWindow w;

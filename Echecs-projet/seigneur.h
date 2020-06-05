@@ -4,7 +4,6 @@
 #include "entite.h"
 #include "plateau.h"
 
-template<typename T>
 
 class Seigneur : public Entite
 {
@@ -12,7 +11,7 @@ protected:
     int portee;
 public:
     Seigneur();
-    bool deplacement_possible(int x, int y, Plateau<T> *plateau);
+    bool deplacement_possible(int x, int y);
 
 };
 
