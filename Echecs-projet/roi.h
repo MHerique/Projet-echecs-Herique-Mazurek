@@ -1,12 +1,14 @@
 #ifndef ROI_H
 #define ROI_H
-#include "seigneur.h"
+#include "entite.h"
+#include "plateau.h"
 
 
-class Roi : public Seigneur
+class Roi : public Entite
 {
 public:
     Roi();
+    bool deplacement_possible(int x, int y,Plateau *plateau);
 };
 
 #endif // ROI_H

@@ -1,8 +1,8 @@
 #ifndef PION_H
 #define PION_H
-#include "chatelain.h"
+#include "entite.h"
 
-class Pion : Chatelain
+class Pion : Entite
 {
 public:
     Pion();

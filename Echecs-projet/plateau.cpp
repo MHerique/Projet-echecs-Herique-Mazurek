@@ -21,6 +21,6 @@ Entite* Plateau::getCase(int x , int y){
 };
 
 
-QVector<QVector<Entite*>*> Plateau::getPlateau(){
-    return cases_plateau;
+QVector<QVector<Entite*>*>* Plateau::getPlateau(){
+    return &cases_plateau;
 };

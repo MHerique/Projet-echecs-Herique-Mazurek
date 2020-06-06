@@ -1,5 +1,4 @@
 release/cavalier.o
-release/chatelain.o
 release/entite.o
 release/fou.o
 release/main.o
@@ -8,7 +7,6 @@ release/pion.o
 release/plateau.o
 release/reine.o
 release/roi.o
-release/seigneur.o
 release/tour.o
 release/moc_entite.o
 release/moc_mainwindow.o

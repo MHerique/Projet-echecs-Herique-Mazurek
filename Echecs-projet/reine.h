@@ -1,8 +1,8 @@
 #ifndef REINE_H
 #define REINE_H
-#include "seigneur.h"
+#include "entite.h"
 
-class Reine : public Seigneur
+class Reine : public Entite
 {
 public:
     Reine();

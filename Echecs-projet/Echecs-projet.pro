@@ -17,7 +17,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     cavalier.cpp \
-    chatelain.cpp \
     entite.cpp \
     fou.cpp \
     main.cpp \
@@ -26,12 +25,10 @@ SOURCES += \
     plateau.cpp \
     reine.cpp \
     roi.cpp \
-    seigneur.cpp \
     tour.cpp
 
 HEADERS += \
     cavalier.h \
-    chatelain.h \
     entite.h \
     fou.h \
     mainwindow.h \
@@ -39,7 +36,6 @@ HEADERS += \
     plateau.h \
     reine.h \
     roi.h \
-    seigneur.h \
     tour.h
 
 FORMS += \

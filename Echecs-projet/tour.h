@@ -1,8 +1,8 @@
 #ifndef TOUR_H
 #define TOUR_H
-#include "chatelain.h"
+#include "entite.h"
 
-class Tour : public Chatelain
+class Tour : public Entite
 {
 public:
     Tour();
