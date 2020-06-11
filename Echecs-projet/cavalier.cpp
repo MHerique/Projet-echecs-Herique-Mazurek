@@ -1,11 +1,13 @@
 #include "cavalier.h"
-
+#include "entite.h"
+#include <vector>
 Cavalier::Cavalier()
 {
 
 }
-bool Cavalier::Deplacement(int x, int y){ // on regarde si le déplacement est valide
+bool Cavalier::Deplacement(int x, int y, std::vector<std::vector<Entite*>*>* plateau){ // on regarde si le déplacement est valide
     int a[4] = {3,-3,1,-1};
+
     for(int i = 0 ; i < 2 ; i++){
         if((position_x+a[i]==x)&&((position_y+1==y)||(position_y-1==y))){  // si le cavalier peut se déplacer latéralement vers le haut ou le bas
             position_x=x;

@@ -1,26 +1,28 @@
 #include "plateau.h"
 #include "entite.h"
-#include <QVector>
+#include "casevide.h"
+#include <vector>
 #include <iostream>
 
 Plateau::Plateau()
 {
-    QVector<Entite*>* declaration_vecteur;
-    Entite* declaration_case = NULL;
+    std::vector<Entite*>* declaration_vecteur;
+    CaseVide* declaration_case;
     for( int x = 0 ; x < 8 ; x++){
-        declaration_vecteur = new QVector<Entite*>;
-        cases_plateau.push_back(declaration_vecteur);
+        declaration_vecteur = new std::vector<Entite*>;
+        cases_plateau->push_back(declaration_vecteur);
         for( int y = 0 ; y < 8 ; y++){
-            cases_plateau.at(x)->push_back(declaration_case);
+            declaration_case = new CaseVide();
+            cases_plateau->at(x)->push_back(declaration_case);
         }
     }
 }
 
 Entite* Plateau::getCase(int x , int y){
-    return cases_plateau.at(x)->at(y);
+    return cases_plateau->at(x)->at(y);
 };
 
 
-QVector<QVector<Entite*>*>* Plateau::getPlateau(){
-    return &cases_plateau;
+std::vector<std::vector<Entite*>*>* Plateau::getPlateau(){
+    return cases_plateau;
 };

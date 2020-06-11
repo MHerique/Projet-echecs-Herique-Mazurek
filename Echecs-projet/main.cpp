@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
     Plateau *ptest = new Plateau();
-    QVector<QVector<Entite*>*>* cases_plateau = ptest->getPlateau();
+    //QVector<QVector<Entite*>*>* cases_plateau = ptest->getPlateau();
 
    /* QApplication a(argc, argv);
     MainWindow w;

@@ -4,11 +4,12 @@
 #include "entite.h"
 
 #include <QObject>
+#include <vector>
 
 class Fou : public Entite{
 public:
     Fou();
-    bool deplacement_possible(int x , int y);
+    bool Deplacement(int x, int y,std::vector<std::vector<Entite*>*>* plateau);
 };
 
 #endif // FOU_H
