@@ -11,6 +11,8 @@ public:
     Plateau(); // initialisation de toute les cases du plateau sans pions
     Entite* getCase(int x, int y);
     std::vector<std::vector<Entite*>*>* getPlateau();
+    std::vector<Entite*>* setVoidLine();
 };
 
 #endif // PLATEAU_H
+

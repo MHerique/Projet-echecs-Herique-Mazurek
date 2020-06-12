@@ -6,6 +6,8 @@
 
 class CaseVide : public Entite
 {
+private:
+    const bool case_vide = false;
 public:
     CaseVide();
 };

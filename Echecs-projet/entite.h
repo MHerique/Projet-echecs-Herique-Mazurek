@@ -10,6 +10,7 @@ protected:
     int position_x; //position x du pion
     int position_y; //position y du pion
     QString couleur;
+    const bool case_vide = true;
 
 public:
     Entite(QObject *parent=0);
